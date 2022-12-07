@@ -1,11 +1,23 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  //create an array for the reversed string
+    let polishedString = word.replace();
+    //reverse the array
+    let reversedstring = polishedString.split("").reverse().join("")
+    //create a string from the reversed array
+    console.log(reversedstring, polishedString)
+    if(polishedString != reversedstring){
+      return false;
 }
-
+return true;
+}
+let result = isPalindrome("abba")
+console.log(result)
 /* 
   Add your pseudocode here
 */
-
+//create a variable
+//reverse the input string
 /*
   Add written explanation of your solution here
 */
